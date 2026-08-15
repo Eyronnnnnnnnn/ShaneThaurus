@@ -36,12 +36,10 @@
   <p>Watch how Shanethaurus casts spells and reveals the true meaning of words:</p>
   
   <!-- Video Embed -->
-  <div class="video-demo">
-    <video width="720" controls>
-      <source src="./img/demo.mp4" type="video/mp4">
-      
-    </video>
-  </div>
+ ## 🎥 Demo Video
+
+👉 [Watch the demo video](https://github.com/Eyronnnnnnnnn/Shanethaurus/raw/main/img/demo.mp4)
+
 </section>
 
 <section>
