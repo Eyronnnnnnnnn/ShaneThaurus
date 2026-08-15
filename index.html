@@ -297,6 +297,54 @@
       box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
     }
 
+    .word-result {
+      display: grid;
+      gap: 18px;
+    }
+
+    .word-result h2 {
+      margin: 0;
+      font-size: clamp(1.8rem, 3vw, 2.6rem);
+      letter-spacing: -0.05em;
+      text-transform: capitalize;
+    }
+
+    .meaning-block {
+      border-top: 1px solid rgba(0, 0, 0, 0.08);
+      padding-top: 14px;
+    }
+
+    .meaning-block h3 {
+      margin: 0 0 10px;
+      font-size: 1.15rem;
+      text-transform: capitalize;
+      color: #171717;
+    }
+
+    .meaning-block ul {
+      margin: 0;
+      padding-left: 20px;
+      display: grid;
+      gap: 12px;
+    }
+
+    .meaning-block li {
+      line-height: 1.6;
+    }
+
+    .meaning-block li strong {
+      display: block;
+      margin-bottom: 4px;
+      color: #1c1c1c;
+    }
+
+    .example,
+    .synonyms {
+      margin-top: 6px;
+      color: #4a4a4a;
+      font-size: 0.95rem;
+    }
+
     @media (max-width: 760px) {
       body {
         padding: 24px 16px 40px;
@@ -406,59 +454,7 @@
     <div id="display" class="display">Search for a word to see the definition here.</div>
   </main>
 
-  <script>
-    const getinput = document.querySelector("#btn");
-    const getvalue = document.querySelector("#inputs");
-    const display = document.querySelector("#display");
-    const load = document.querySelector(".loader");
-
-    function loadingstart() {
-      load.style.display = "block";
-    }
-
-    function loadingstop() {
-      load.style.display = "none";
-    }
-
-    function searchWord() {
-      const inputValue = getvalue.value.trim();
-
-      if (!inputValue) {
-        display.innerHTML = "Please type a word first.";
-        return;
-      }
-
-      display.innerHTML = "";
-      loadingstart();
-
-      setTimeout(async () => {
-        try {
-          const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${inputValue}`);
-          const data = await response.json();
-
-          if (data && data[0] && data[0].meanings && data[0].meanings[0] && data[0].meanings[0].definitions[0]) {
-            display.innerHTML = data[0].meanings[0].definitions[0].definition;
-          } else {
-            display.innerHTML = "No word found. Try another one.";
-          }
-        } catch (error) {
-          console.log(error);
-          display.innerHTML = "No word found. Please try another one.";
-        } finally {
-          loadingstop();
-        }
-      }, 800);
-    }
-
-    getinput.addEventListener("click", searchWord);
-
-    getvalue.addEventListener("keydown", (event) => {
-      if (event.key === "Enter") {
-        event.preventDefault();
-        searchWord();
-      }
-    });
-  </script>
+  <script src="./script.js"></script>
 </body>
 
 </html>
