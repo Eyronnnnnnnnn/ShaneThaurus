@@ -112,3 +112,38 @@
 <section>
   <h2>⚡ How the Magic Works</h2>
   <p>Shane casts a word → Shanethaurus consults the Dictionary API → The definition is revealed → Shane judges its semantic worth.</p>
+<<<<<<< HEAD
+=======
+  
+  <div class="spell-box">
+    <label for="word">🔮 Search for a word:</label><br><br>
+    <input type="text" id="word" placeholder="Enter a word...">
+    <button>✨ CAST SPELL ✨</button>
+  </div>
+</section>
+
+<section class="tech">
+  <h2>🧙‍♂️ Technology</h2>
+  <ul>
+    <li>HTML, CSS, JavaScript</li>
+    <li>Dictionary API</li>
+    <li>Fetch API & REST API</li>
+    <li>Crafted by Aaron D. Guillermo — Software Engineer, AI Engineer, Part-Time Wizard ❤️</li>
+  </ul>
+</section>
+
+<section>
+  <h2>🧙‍♀️ The Chosen One Shane</h2>
+  <p>
+    The Beauty. The Perfectionist. The Devil. The Kulot D Perfectionist.  
+    Guardian of Semantic Integrity. She doesn’t simply read words — she judges them. 💀
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Aaron D. Guillermo — Shanethaurus 🦖🧙‍♀️</p>
+</footer>
+
+</body>
+</html>
+>>>>>>> 35561dc1d91d1d46333959ac717f2e472337ab2f
