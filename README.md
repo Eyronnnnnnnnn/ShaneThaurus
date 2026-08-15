@@ -38,7 +38,9 @@
   <!-- Video Embed -->
 ## 🎥 Shanethaurus Demo
 
-<iframe width="720" height="405" src="https://www.youtube.com/embed/o6zOhAdzj3s" frameborder="0" allowfullscreen></iframe>
+<div align="center">
+  <iframe width="720" height="405" src="https://www.youtube.com/embed/o6zOhAdzj3s" frameborder="0" allowfullscreen></iframe>
+</div>
 
 
 </section>
