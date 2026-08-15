@@ -34,16 +34,13 @@
 <section>
   <h2>⚡ Demo</h2>
   <p>Watch how Shanethaurus casts spells and reveals the true meaning of words:</p>
-  
-  <!-- Video Embed -->
-## 🎥 Shanethaurus Demo
 
-<div align="center">
-  <iframe width="720" height="405" src="https://www.youtube.com/embed/o6zOhAdzj3s" frameborder="0" allowfullscreen></iframe>
-</div>
-
-
+  <div align="center">
+    <h3>🎥 Shanethaurus Demo</h3>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/o6zOhAdzj3s" frameborder="0" allowfullscreen></iframe>
+  </div>
 </section>
+
 
 <section>
   <h2>🧙‍♂️ Technology</h2>
