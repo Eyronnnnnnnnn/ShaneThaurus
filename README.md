@@ -1,111 +1,146 @@
-🧙‍♀️✨ Shanethaurus — The Wizard's Dictionary
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shanethaurus — The Wizard's Dictionary</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f5f7fa;
+      color: #222;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #6a11cb;
+      margin-top: 2rem;
+    }
+    .features, .tech, .about {
+      background: #fff;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-top: 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    ul {
+      list-style: "✨ ";
+      padding-left: 1.2rem;
+    }
+    .spell-box {
+      border: 2px dashed #6a11cb;
+      padding: 1rem;
+      text-align: center;
+      margin: 2rem 0;
+      border-radius: 8px;
+      background: #fafafa;
+    }
+    .spell-box input {
+      padding: 0.6rem;
+      width: 70%;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .spell-box button {
+      background: #6a11cb;
+      color: white;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      margin-left: 0.5rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #222;
+      color: #eee;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
 
-Shanethaurus: A highly evolved linguistic wizard who refuses to let a single word exist without first questioning its accuracy, elegance, and semantic integrity. 🪄📖
+<header>
+  <h1>🧙‍♀️ Shanethaurus — The Wizard's Dictionary</h1>
+  <p>A magical dictionary crafted for Shane, the Kulot D Perfectionist ✨</p>
+</header>
 
-Beauty / Perfectionist / Devil / Syempre Beben Eyron
+<section class="about">
+  <h2>About Shanethaurus</h2>
+  <p>
+    Shanethaurus is a mystical, web-based dictionary created for Shane — the legendary Kulot D Perfectionist. 
+    Armed with a wizard’s hat, a magic book, and an obsession with perfect English, Shanethaurus ensures 
+    that no word exists without being judged for its semantic integrity.
+  </p>
+  <blockquote>
+    "It's not enough that the word exists. We must know if it is semantically correct." 🧐✨
+  </blockquote>
+</section>
 
-🧙‍♀️ About Shanethaurus
+<section class="features">
+  <h2>🔮 Features</h2>
+  <ul>
+    <li>Magical Word Search — Search for any English word</li>
+    <li>Enchanted Dictionary API — Retrieves definitions from mystical realms</li>
+    <li>Instant Definitions — Discover meanings instantly</li>
+    <li>Wizard-Themed Interface — Because ordinary dictionaries are boring</li>
+    <li>Kulot D Perfectionist Mode™ — Made specifically for Shane</li>
+  </ul>
+</section>
 
-Shanethaurus is a magical, web-based dictionary created specifically for Shane, the legendary Kulot D Perfectionist. 🌀
+<section>
+  <h2>⚡ How the Magic Works</h2>
+  <p>Shane casts a word → Shanethaurus consults the Dictionary API → The definition is revealed → Shane judges its semantic worth.</p>
+  
+  <div class="spell-box">
+    <label for="word">🔮 Search for a word:</label><br><br>
+    <input type="text" id="word" placeholder="Enter a word...">
+    <button>✨ CAST SPELL ✨</button>
+  </div>
+</section>
 
-Armed with nothing but a magic book, a wizard's hat, and an unreasonable obsession with perfect English, Shanethaurus searches the ancient archives of the internet to reveal the true meaning of every word.
+<section class="tech">
+  <h2>🧙‍♂️ Technology</h2>
+  <ul>
+    <li>HTML, CSS, JavaScript</li>
+    <li>Dictionary API</li>
+    <li>Fetch API & REST API</li>
+    <li>Crafted by Aaron D. Guillermo — Software Engineer, AI Engineer, Part-Time Wizard ❤️</li>
+  </ul>
+</section>
 
-Because apparently...
+<section>
+  <h2>🧙‍♀️ The Chosen One Shane</h2>
+  <p>
+    The Beauty. The Perfectionist. The Devil. The Kulot D Perfectionist.  
+    Guardian of Semantic Integrity. She doesn’t simply read words — she judges them. 💀
+  </p>
+</section>
 
-"It's not enough that the word exists. We must know if it is semantically correct." 🧐✨
+<footer>
+  <p>© 2026 Aaron D. Guillermo — Shanethaurus 🦖🧙‍♀️</p>
+</footer>
 
-🔮 Features
-🪄 Magical Word Search — Search for any English word
-📖 Enchanted Dictionary API — Retrieves definitions from the mystical dictionary realm
-✨ Instant Definitions — Discover the meaning of your chosen word
-🧙‍♀️ Wizard-Themed Interface — Because ordinary dictionaries are boring
-🌀 Kulot D Perfectionist Mode™
-❤️ Made Specifically for Shane
-⚡ How the Magic Works
-           🧙‍♀️ Shane
-               │
-               ▼
-        🔮 Cast a Word
-               │
-               ▼
-       📖 Shanethaurus
-               │
-               ▼
-       ✨ Dictionary API
-               │
-               ▼
-        📜 Word Definition
-               │
-               ▼
-       🧙‍♀️ Shane's Judgment
-               │
-               ▼
-      "Hmm... semantically?"
-🪄 The Magic Spell
-
-Enter a word into the enchanted search box:
-
-┌─────────────────────────────────┐
-│ 🔮 Search for a word...         │
-└─────────────────────────────────┘
-
-
-          [ ✨ Submit ✨ ]
-
-Shanethaurus then sends a request to the Dictionary API, retrieves the definition, and displays the magical result.
-
-🧙‍♀️ Technology
-
-Built using the ancient arts of:
-
-🟨 JavaScript
-🧱 HTML
-🎨 CSS
-🔮 Dictionary API
-⚡ Fetch API
-🌐 REST API
-📜 The Legendary Wizard
-Aaron D. Guillermo
-
-💻 Software Engineer
-🤖 AI Engineer
-🧙‍♂️ Part-Time Wizard
-❤️ Full-Time Beben Eyron
-
-"Try my bebe Shane English skills now hehe."
-
-🧙‍♀️ The Chosen One
-Shane
-
-The Beauty.
-The Perfectionist.
-The Devil.
-The Kulot D Perfectionist. 🌀
-The Guardian of Semantic Integrity. 📖
-
-She doesn't simply read words.
-
-She judges them. 💀
-
-🔮 Shanethaurus
-The Dictionary of the Linguistic Wizard
-
-Search for a word to reveal its ancient meaning.
-
-🌀 Kulot D Perfectionist ↓
-
-[ ✨ CAST SPELL ✨ ]
-
-❤️ A Magical Project
-
-This project was created by Beben Eyron specifically for Shane.
-
-Because every wizard deserves their own magical dictionary.
-
-And every linguistic perfectionist deserves a website where they can finally ask:
-
-"But what does this word REALLY mean?" 🧙‍♀️📖✨
-
-🪄 Made with JavaScript, APIs, love, and a little bit of magic.
-
-© 2026 Aaron D. Guillermo — Shanethaurus 🦖🧙‍♀️
+</body>
+</html>
