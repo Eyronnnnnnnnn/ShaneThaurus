@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Shanethaurus — The Wizard's Dictionary</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="readme.css">
 </head>
 <body>
 
@@ -40,7 +39,7 @@
   <div class="video-demo">
     <video width="720" controls>
       <source src="./img/demo.mp4" type="video/mp4">
-      Your browser does not support the video tag.
+      
     </video>
   </div>
 </section>
