@@ -1,0 +1,73 @@
+   body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f5f7fa;
+      color: #222;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #6a11cb;
+      margin-top: 2rem;
+    }
+    .features, .tech, .about {
+      background: #fff;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-top: 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    ul {
+      list-style: "✨ ";
+      padding-left: 1.2rem;
+    }
+    .spell-box {
+      border: 2px dashed #6a11cb;
+      padding: 1rem;
+      text-align: center;
+      margin: 2rem 0;
+      border-radius: 8px;
+      background: #fafafa;
+    }
+    .spell-box input {
+      padding: 0.6rem;
+      width: 70%;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .spell-box button {
+      background: #6a11cb;
+      color: white;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      margin-left: 0.5rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #222;
+      color: #eee;
+      margin-top: 2rem;
+    }
