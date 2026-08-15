@@ -36,9 +36,7 @@
   <p>Watch how Shanethaurus casts spells and reveals the true meaning of words:</p>
   
   <!-- Video Embed -->
- <video width="720" controls>
-  <source src="./img/demo.mp4" type="video/mp4">
-</video>
+https://Eyronnnnnnnnn.github.io/Shanethaurus/demo.html
 
 </section>
 
