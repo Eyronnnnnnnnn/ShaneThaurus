@@ -98,7 +98,7 @@ function searchWord() {
     })
     .catch((error) => {
       console.error(error);
-      display.innerHTML = 'No word found. Please try another one.';
+      display.innerHTML = 'No word Found Bitch!!!. Check your fvcking spelling and try again - ShaneThaurus .';
     })
     .finally(() => {
       loadingstop();
